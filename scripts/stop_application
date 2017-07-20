@@ -2,4 +2,4 @@
 
 set -e
 
-service tomcat7 stop
+service tomcat7 stop||echo 'no tomcat7 service'
